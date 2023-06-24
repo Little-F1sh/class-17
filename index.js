@@ -63,3 +63,42 @@
 // // myPc.Price = "850$";
 // myPc["Price"] ="850$";
 // console.log(myPc);
+ 
+// var color = "black";
+
+// if (color == "yellow"){
+//     console.log("the Color is Yellow");
+// }else if (color == "green"){
+//     console.log("the color is green");
+// }else if (color == "blue"){
+//     console.log("the color is blue");
+// }else if(color == "red" ){
+//     console.log("the color is red");
+// } else{
+//     console.log("the color is black");
+// }
+
+// var color = "blue";
+
+// switch(color){
+//     case "yellow":
+//         console.log("the color is yellow");
+//         break;
+//     case "green":
+//         console.log("the color is green");
+//         break;
+//     case "blue":
+//         console.log("the color is blue");
+//         break;
+//     default:
+//         console.log("the color is black");
+// }
+
+let num = [10, 20, 30, 40, 50,];
+    for(var i = 0; i < num.length; i++) {
+        if(num[i] == 30){
+            // break;
+            continue;
+        }
+        console.log(num[i]);
+    }
